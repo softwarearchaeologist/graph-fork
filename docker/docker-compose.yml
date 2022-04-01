@@ -19,7 +19,8 @@ services:
       postgres_pass: let-me-in
       postgres_db: graph-node
       ipfs: 'ipfs:5001'
-      ethereum: 'cronos:'
+      # ethereum: 'cronos:https://evm.cronos.org'
+      ethereum: 'cronos:http://192.168.32.1:8546'
       ETHEREUM_POLLING_INTERVAL: 1000
       GRAPH_LOG: trace
   ipfs:
